@@ -8,7 +8,7 @@ export const Person = ({ person }) => (
     )}
     <p className="Person__partner">
       {person.isMarried === true
-        ? `${person.partnerName} is my ${person.sex === 'f' ? 'husband' : 'wife'}`
+        ? `${person.partnerName} is my ${person.sex === 'm' ? 'wife' : 'husband'}`
         : 'I am not married'}
     </p>
   </section>
